@@ -1,0 +1,9 @@
+{
+  "version": "1",
+  "name": "testing-Api-Zabbix",
+  "type": "collection",
+  "ignore": [
+    "node_modules",
+    ".git"
+  ]
+}
