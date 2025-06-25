@@ -19,9 +19,8 @@ services:
     ports:
       - "${FASTAPI_SLOW_PORT}:80"
     restart: unless-stopped
-
   zbx_agent_redis:
-    image: zabbix/zabbix-agent:alpine
+    image: zabbix/zabbix-agent:alpine-7.2-latest
     container_name: zbx_agent_redis
     environment:
       ZBX_SERVER_HOST: ${ZBX_SERVER_HOST}
@@ -29,7 +28,7 @@ services:
     restart: unless-stopped
 
   zbx_agent_health:
-    image: zabbix/zabbix-agent:alpine
+    image: zabbix/zabbix-agent:alpine-7.2-latest
     container_name: zbx_agent_health
     environment:
       ZBX_SERVER_HOST: ${ZBX_SERVER_HOST}
@@ -37,7 +36,7 @@ services:
     restart: unless-stopped
 
   zbx_agent_slow:
-    image: zabbix/zabbix-agent:alpine
+    image: zabbix/zabbix-agent:alpine-7.2-latest
     container_name: zbx_agent_slow
     environment:
       ZBX_SERVER_HOST: ${ZBX_SERVER_HOST}
