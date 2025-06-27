@@ -5,4 +5,7 @@ __pycache__/
 .venv
 *.bru 
 *.php
+*.json
+
 testing-Api-Zabbix/README.md
+testing-Api-Zabbix/Responses
