@@ -26,7 +26,9 @@ services:
       ZBX_SERVER_HOST: ${ZBX_SERVER_HOST}
       ZBX_HOSTNAME: redis-service
     restart: unless-stopped
-
+    ports:
+      - "10053:10050"
+    
   zbx_agent_health:
     image: zabbix/zabbix-agent:alpine-7.2-latest
     container_name: zbx_agent_health
@@ -34,6 +36,8 @@ services:
       ZBX_SERVER_HOST: ${ZBX_SERVER_HOST}
       ZBX_HOSTNAME: health-api
     restart: unless-stopped
+    ports:
+      - "10051:10050"
 
   zbx_agent_slow:
     image: zabbix/zabbix-agent:alpine-7.2-latest
@@ -42,3 +46,5 @@ services:
       ZBX_SERVER_HOST: ${ZBX_SERVER_HOST}
       ZBX_HOSTNAME: slow-api
     restart: unless-stopped
+    ports:
+      - "10052:10050"

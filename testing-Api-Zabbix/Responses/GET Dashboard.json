@@ -1,0 +1,1223 @@
+{
+    "jsonrpc": "2.0",
+    "result": [
+        {
+            "dashboardid": "1",
+            "name": "Global view",
+            "userid": "1",
+            "private": "0",
+            "display_period": "30",
+            "auto_start": "1",
+            "uuid": "",
+            "pages": [
+                {
+                    "dashboard_pageid": "1",
+                    "name": "",
+                    "display_period": "0",
+                    "widgets": [
+                        {
+                            "widgetid": "1",
+                            "type": "tophosts",
+                            "name": "Top hosts by CPU utilization",
+                            "x": "0",
+                            "y": "0",
+                            "width": "24",
+                            "height": "4",
+                            "view_mode": "0",
+                            "fields": [
+                                {
+                                    "type": "3",
+                                    "name": "hostids.0",
+                                    "value": "10084"
+                                },
+                                {
+                                    "type": "1",
+                                    "name": "columns.0.name",
+                                    "value": "Host name"
+                                },
+                                {
+                                    "type": "0",
+                                    "name": "columns.0.data",
+                                    "value": "2"
+                                },
+                                {
+                                    "type": "1",
+                                    "name": "columns.0.item",
+                                    "value": "System name"
+                                },
+                                {
+                                    "type": "0",
+                                    "name": "columns.0.aggregate_function",
+                                    "value": "0"
+                                },
+                                {
+                                    "type": "0",
+                                    "name": "columns.0.decimal_places",
+                                    "value": "2"
+                                },
+                                {
+                                    "type": "1",
+                                    "name": "columns.0.base_color",
+                                    "value": ""
+                                },
+                                {
+                                    "type": "1",
+                                    "name": "columns.1.name",
+                                    "value": "Utilization"
+                                },
+                                {
+                                    "type": "0",
+                                    "name": "columns.1.data",
+                                    "value": "1"
+                                },
+                                {
+                                    "type": "1",
+                                    "name": "columns.1.item",
+                                    "value": "CPU utilization"
+                                },
+                                {
+                                    "type": "0",
+                                    "name": "columns.1.aggregate_function",
+                                    "value": "0"
+                                },
+                                {
+                                    "type": "1",
+                                    "name": "columns.1.min",
+                                    "value": "0"
+                                },
+                                {
+                                    "type": "1",
+                                    "name": "columns.1.max",
+                                    "value": "100"
+                                },
+                                {
+                                    "type": "0",
+                                    "name": "columns.1.decimal_places",
+                                    "value": "2"
+                                },
+                                {
+                                    "type": "0",
+                                    "name": "columns.1.display",
+                                    "value": "3"
+                                },
+                                {
+                                    "type": "0",
+                                    "name": "columns.1.history",
+                                    "value": "1"
+                                },
+                                {
+                                    "type": "1",
+                                    "name": "columns.1.base_color",
+                                    "value": "4CAF50"
+                                },
+                                {
+                                    "type": "1",
+                                    "name": "columnsthresholds.1.color.0",
+                                    "value": "FFFF00"
+                                },
+                                {
+                                    "type": "1",
+                                    "name": "columnsthresholds.1.threshold.0",
+                                    "value": "50"
+                                },
+                                {
+                                    "type": "1",
+                                    "name": "columnsthresholds.1.color.1",
+                                    "value": "FF8000"
+                                },
+                                {
+                                    "type": "1",
+                                    "name": "columnsthresholds.1.threshold.1",
+                                    "value": "80"
+                                },
+                                {
+                                    "type": "1",
+                                    "name": "columnsthresholds.1.color.2",
+                                    "value": "FF4000"
+                                },
+                                {
+                                    "type": "1",
+                                    "name": "columnsthresholds.1.threshold.2",
+                                    "value": "90"
+                                },
+                                {
+                                    "type": "1",
+                                    "name": "columns.2.name",
+                                    "value": "1m avg"
+                                },
+                                {
+                                    "type": "0",
+                                    "name": "columns.2.data",
+                                    "value": "1"
+                                },
+                                {
+                                    "type": "1",
+                                    "name": "columns.2.item",
+                                    "value": "Load average (1m avg)"
+                                },
+                                {
+                                    "type": "0",
+                                    "name": "columns.2.aggregate_function",
+                                    "value": "0"
+                                },
+                                {
+                                    "type": "0",
+                                    "name": "columns.2.decimal_places",
+                                    "value": "2"
+                                },
+                                {
+                                    "type": "0",
+                                    "name": "columns.2.display",
+                                    "value": "1"
+                                },
+                                {
+                                    "type": "0",
+                                    "name": "columns.2.history",
+                                    "value": "1"
+                                },
+                                {
+                                    "type": "1",
+                                    "name": "columns.2.base_color",
+                                    "value": ""
+                                },
+                                {
+                                    "type": "1",
+                                    "name": "columns.3.name",
+                                    "value": "5m avg"
+                                },
+                                {
+                                    "type": "0",
+                                    "name": "columns.3.data",
+                                    "value": "1"
+                                },
+                                {
+                                    "type": "1",
+                                    "name": "columns.3.item",
+                                    "value": "Load average (5m avg)"
+                                },
+                                {
+                                    "type": "0",
+                                    "name": "columns.3.aggregate_function",
+                                    "value": "0"
+                                },
+                                {
+                                    "type": "0",
+                                    "name": "columns.3.decimal_places",
+                                    "value": "2"
+                                },
+                                {
+                                    "type": "0",
+                                    "name": "columns.3.display",
+                                    "value": "1"
+                                },
+                                {
+                                    "type": "0",
+                                    "name": "columns.3.history",
+                                    "value": "1"
+                                },
+                                {
+                                    "type": "1",
+                                    "name": "columns.3.base_color",
+                                    "value": ""
+                                },
+                                {
+                                    "type": "1",
+                                    "name": "columns.4.name",
+                                    "value": "15m avg"
+                                },
+                                {
+                                    "type": "0",
+                                    "name": "columns.4.data",
+                                    "value": "1"
+                                },
+                                {
+                                    "type": "1",
+                                    "name": "columns.4.item",
+                                    "value": "Load average (15m avg)"
+                                },
+                                {
+                                    "type": "0",
+                                    "name": "columns.4.aggregate_function",
+                                    "value": "0"
+                                },
+                                {
+                                    "type": "0",
+                                    "name": "columns.4.decimal_places",
+                                    "value": "2"
+                                },
+                                {
+                                    "type": "0",
+                                    "name": "columns.4.display",
+                                    "value": "1"
+                                },
+                                {
+                                    "type": "0",
+                                    "name": "columns.4.history",
+                                    "value": "1"
+                                },
+                                {
+                                    "type": "1",
+                                    "name": "columns.4.base_color",
+                                    "value": ""
+                                },
+                                {
+                                    "type": "1",
+                                    "name": "columns.5.name",
+                                    "value": "Processes"
+                                },
+                                {
+                                    "type": "0",
+                                    "name": "columns.5.data",
+                                    "value": "1"
+                                },
+                                {
+                                    "type": "1",
+                                    "name": "columns.5.item",
+                                    "value": "Number of processes"
+                                },
+                                {
+                                    "type": "0",
+                                    "name": "columns.5.aggregate_function",
+                                    "value": "0"
+                                },
+                                {
+                                    "type": "0",
+                                    "name": "columns.5.decimal_places",
+                                    "value": "0"
+                                },
+                                {
+                                    "type": "0",
+                                    "name": "columns.5.display",
+                                    "value": "1"
+                                },
+                                {
+                                    "type": "0",
+                                    "name": "columns.5.history",
+                                    "value": "1"
+                                },
+                                {
+                                    "type": "1",
+                                    "name": "columns.5.base_color",
+                                    "value": ""
+                                },
+                                {
+                                    "type": "0",
+                                    "name": "column",
+                                    "value": "1"
+                                },
+                                {
+                                    "type": "1",
+                                    "name": "reference",
+                                    "value": "NLVMO"
+                                }
+                            ]
+                        },
+                        {
+                            "widgetid": "2",
+                            "type": "item",
+                            "name": "Performance",
+                            "x": "24",
+                            "y": "0",
+                            "width": "9",
+                            "height": "2",
+                            "view_mode": "1",
+                            "fields": [
+                                {
+                                    "type": "4",
+                                    "name": "itemid.0",
+                                    "value": "23277"
+                                },
+                                {
+                                    "type": "0",
+                                    "name": "show.0",
+                                    "value": "1"
+                                },
+                                {
+                                    "type": "0",
+                                    "name": "show.1",
+                                    "value": "2"
+                                },
+                                {
+                                    "type": "0",
+                                    "name": "show.2",
+                                    "value": "4"
+                                },
+                                {
+                                    "type": "1",
+                                    "name": "description",
+                                    "value": "{HOST.NAME}\r\nValues per second"
+                                },
+                                {
+                                    "type": "0",
+                                    "name": "units_show",
+                                    "value": "0"
+                                },
+                                {
+                                    "type": "0",
+                                    "name": "units_bold",
+                                    "value": "0"
+                                },
+                                {
+                                    "type": "0",
+                                    "name": "desc_bold",
+                                    "value": "1"
+                                }
+                            ]
+                        },
+                        {
+                            "widgetid": "3",
+                            "type": "systeminfo",
+                            "name": "",
+                            "x": "33",
+                            "y": "0",
+                            "width": "27",
+                            "height": "4",
+                            "view_mode": "0",
+                            "fields": []
+                        },
+                        {
+                            "widgetid": "4",
+                            "type": "clock",
+                            "name": "Local time",
+                            "x": "60",
+                            "y": "0",
+                            "width": "12",
+                            "height": "4",
+                            "view_mode": "1",
+                            "fields": [
+                                {
+                                    "type": "0",
+                                    "name": "time_bold",
+                                    "value": "1"
+                                },
+                                {
+                                    "type": "0",
+                                    "name": "time_sec",
+                                    "value": "0"
+                                },
+                                {
+                                    "type": "0",
+                                    "name": "clock_type",
+                                    "value": "1"
+                                },
+                                {
+                                    "type": "0",
+                                    "name": "show.0",
+                                    "value": "2"
+                                },
+                                {
+                                    "type": "0",
+                                    "name": "show.1",
+                                    "value": "3"
+                                }
+                            ]
+                        },
+                        {
+                            "widgetid": "5",
+                            "type": "svggraph",
+                            "name": "",
+                            "x": "24",
+                            "y": "2",
+                            "width": "9",
+                            "height": "2",
+                            "view_mode": "1",
+                            "fields": [
+                                {
+                                    "type": "1",
+                                    "name": "ds.0.hosts.0",
+                                    "value": "Zabbix server"
+                                },
+                                {
+                                    "type": "1",
+                                    "name": "ds.0.items.0",
+                                    "value": "Number of processed values per second"
+                                },
+                                {
+                                    "type": "1",
+                                    "name": "ds.0.color",
+                                    "value": "90CAF9"
+                                },
+                                {
+                                    "type": "0",
+                                    "name": "lefty",
+                                    "value": "0"
+                                },
+                                {
+                                    "type": "0",
+                                    "name": "righty",
+                                    "value": "0"
+                                },
+                                {
+                                    "type": "0",
+                                    "name": "axisx",
+                                    "value": "0"
+                                },
+                                {
+                                    "type": "0",
+                                    "name": "legend",
+                                    "value": "0"
+                                },
+                                {
+                                    "type": "1",
+                                    "name": "reference",
+                                    "value": "AAAAA"
+                                },
+                                {
+                                    "type": "1",
+                                    "name": "time_period.from",
+                                    "value": "now-1h"
+                                },
+                                {
+                                    "type": "1",
+                                    "name": "time_period.to",
+                                    "value": "now"
+                                }
+                            ]
+                        },
+                        {
+                            "widgetid": "6",
+                            "type": "hostavail",
+                            "name": "",
+                            "x": "0",
+                            "y": "4",
+                            "width": "21",
+                            "height": "2",
+                            "view_mode": "0",
+                            "fields": [
+                                {
+                                    "type": "0",
+                                    "name": "interface_type.0",
+                                    "value": "1"
+                                }
+                            ]
+                        },
+                        {
+                            "widgetid": "7",
+                            "type": "problemsbysv",
+                            "name": "",
+                            "x": "21",
+                            "y": "4",
+                            "width": "30",
+                            "height": "2",
+                            "view_mode": "0",
+                            "fields": [
+                                {
+                                    "type": "0",
+                                    "name": "show_type",
+                                    "value": "1"
+                                },
+                                {
+                                    "type": "1",
+                                    "name": "reference",
+                                    "value": "VAGMD"
+                                }
+                            ]
+                        },
+                        {
+                            "widgetid": "8",
+                            "type": "geomap",
+                            "name": "",
+                            "x": "51",
+                            "y": "4",
+                            "width": "21",
+                            "height": "7",
+                            "view_mode": "0",
+                            "fields": [
+                                {
+                                    "type": "3",
+                                    "name": "hostids.0",
+                                    "value": "10084"
+                                },
+                                {
+                                    "type": "1",
+                                    "name": "default_view",
+                                    "value": "56.95225,24.11301,11"
+                                },
+                                {
+                                    "type": "1",
+                                    "name": "reference",
+                                    "value": "TDYJO"
+                                }
+                            ]
+                        },
+                        {
+                            "widgetid": "9",
+                            "type": "problems",
+                            "name": "Current problems",
+                            "x": "0",
+                            "y": "6",
+                            "width": "51",
+                            "height": "5",
+                            "view_mode": "0",
+                            "fields": [
+                                {
+                                    "type": "0",
+                                    "name": "show",
+                                    "value": "3"
+                                },
+                                {
+                                    "type": "0",
+                                    "name": "show_tags",
+                                    "value": "3"
+                                },
+                                {
+                                    "type": "1",
+                                    "name": "reference",
+                                    "value": "BRUQE"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "users": [],
+            "userGroups": []
+        },
+        {
+            "dashboardid": "2",
+            "name": "Zabbix server health",
+            "userid": "1",
+            "private": "1",
+            "display_period": "30",
+            "auto_start": "1",
+            "uuid": "",
+            "pages": [
+                {
+                    "dashboard_pageid": "2",
+                    "name": "",
+                    "display_period": "0",
+                    "widgets": [
+                        {
+                            "widgetid": "10",
+                            "type": "problems",
+                            "name": "Zabbix server problems",
+                            "x": "0",
+                            "y": "0",
+                            "width": "60",
+                            "height": "4",
+                            "view_mode": "0",
+                            "fields": [
+                                {
+                                    "type": "3",
+                                    "name": "hostids.0",
+                                    "value": "10084"
+                                },
+                                {
+                                    "type": "1",
+                                    "name": "reference",
+                                    "value": "OHHHJ"
+                                }
+                            ]
+                        },
+                        {
+                            "widgetid": "11",
+                            "type": "clock",
+                            "name": "Local time",
+                            "x": "60",
+                            "y": "0",
+                            "width": "12",
+                            "height": "4",
+                            "view_mode": "1",
+                            "fields": []
+                        },
+                        {
+                            "widgetid": "12",
+                            "type": "svggraph",
+                            "name": "Values processed per second",
+                            "x": "0",
+                            "y": "4",
+                            "width": "24",
+                            "height": "5",
+                            "view_mode": "0",
+                            "fields": [
+                                {
+                                    "type": "0",
+                                    "name": "ds.0.transparency",
+                                    "value": "0"
+                                },
+                                {
+                                    "type": "0",
+                                    "name": "legend",
+                                    "value": "0"
+                                },
+                                {
+                                    "type": "0",
+                                    "name": "righty",
+                                    "value": "0"
+                                },
+                                {
+                                    "type": "0",
+                                    "name": "show_problems",
+                                    "value": "1"
+                                },
+                                {
+                                    "type": "1",
+                                    "name": "ds.0.color",
+                                    "value": "00BFFF"
+                                },
+                                {
+                                    "type": "1",
+                                    "name": "ds.0.hosts.0",
+                                    "value": "Zabbix server"
+                                },
+                                {
+                                    "type": "1",
+                                    "name": "ds.0.items.0",
+                                    "value": "Number of processed *values per second"
+                                },
+                                {
+                                    "type": "1",
+                                    "name": "lefty_min",
+                                    "value": "0"
+                                },
+                                {
+                                    "type": "1",
+                                    "name": "problemhosts.0",
+                                    "value": "Zabbix server"
+                                },
+                                {
+                                    "type": "1",
+                                    "name": "reference",
+                                    "value": "AAAAA"
+                                }
+                            ]
+                        },
+                        {
+                            "widgetid": "13",
+                            "type": "svggraph",
+                            "name": "Utilization of data collectors",
+                            "x": "24",
+                            "y": "4",
+                            "width": "24",
+                            "height": "5",
+                            "view_mode": "0",
+                            "fields": [
+                                {
+                                    "type": "0",
+                                    "name": "ds.0.transparency",
+                                    "value": "0"
+                                },
+                                {
+                                    "type": "0",
+                                    "name": "legend",
+                                    "value": "0"
+                                },
+                                {
+                                    "type": "0",
+                                    "name": "righty",
+                                    "value": "0"
+                                },
+                                {
+                                    "type": "0",
+                                    "name": "show_problems",
+                                    "value": "1"
+                                },
+                                {
+                                    "type": "1",
+                                    "name": "ds.0.color",
+                                    "value": "E57373"
+                                },
+                                {
+                                    "type": "1",
+                                    "name": "ds.0.hosts.0",
+                                    "value": "Zabbix server"
+                                },
+                                {
+                                    "type": "1",
+                                    "name": "ds.0.items.0",
+                                    "value": "Utilization of * data collector *"
+                                },
+                                {
+                                    "type": "1",
+                                    "name": "lefty_max",
+                                    "value": "100"
+                                },
+                                {
+                                    "type": "1",
+                                    "name": "lefty_min",
+                                    "value": "0"
+                                },
+                                {
+                                    "type": "1",
+                                    "name": "problemhosts.0",
+                                    "value": "Zabbix server"
+                                },
+                                {
+                                    "type": "1",
+                                    "name": "reference",
+                                    "value": "AAAAB"
+                                }
+                            ]
+                        },
+                        {
+                            "widgetid": "14",
+                            "type": "svggraph",
+                            "name": "Utilization of internal processes",
+                            "x": "48",
+                            "y": "4",
+                            "width": "24",
+                            "height": "5",
+                            "view_mode": "0",
+                            "fields": [
+                                {
+                                    "type": "0",
+                                    "name": "ds.0.transparency",
+                                    "value": "0"
+                                },
+                                {
+                                    "type": "0",
+                                    "name": "legend",
+                                    "value": "0"
+                                },
+                                {
+                                    "type": "0",
+                                    "name": "righty",
+                                    "value": "0"
+                                },
+                                {
+                                    "type": "0",
+                                    "name": "show_problems",
+                                    "value": "1"
+                                },
+                                {
+                                    "type": "1",
+                                    "name": "ds.0.color",
+                                    "value": "E57373"
+                                },
+                                {
+                                    "type": "1",
+                                    "name": "ds.0.hosts.0",
+                                    "value": "Zabbix server"
+                                },
+                                {
+                                    "type": "1",
+                                    "name": "ds.0.items.0",
+                                    "value": "Utilization of * internal *"
+                                },
+                                {
+                                    "type": "1",
+                                    "name": "lefty_max",
+                                    "value": "100"
+                                },
+                                {
+                                    "type": "1",
+                                    "name": "lefty_min",
+                                    "value": "0"
+                                },
+                                {
+                                    "type": "1",
+                                    "name": "problemhosts.0",
+                                    "value": "Zabbix server"
+                                },
+                                {
+                                    "type": "1",
+                                    "name": "reference",
+                                    "value": "AAAAC"
+                                }
+                            ]
+                        },
+                        {
+                            "widgetid": "15",
+                            "type": "svggraph",
+                            "name": "Cache usage",
+                            "x": "0",
+                            "y": "9",
+                            "width": "24",
+                            "height": "5",
+                            "view_mode": "0",
+                            "fields": [
+                                {
+                                    "type": "0",
+                                    "name": "ds.0.fill",
+                                    "value": "0"
+                                },
+                                {
+                                    "type": "0",
+                                    "name": "ds.0.transparency",
+                                    "value": "0"
+                                },
+                                {
+                                    "type": "0",
+                                    "name": "ds.0.width",
+                                    "value": "2"
+                                },
+                                {
+                                    "type": "0",
+                                    "name": "legend",
+                                    "value": "0"
+                                },
+                                {
+                                    "type": "0",
+                                    "name": "righty",
+                                    "value": "0"
+                                },
+                                {
+                                    "type": "0",
+                                    "name": "show_problems",
+                                    "value": "1"
+                                },
+                                {
+                                    "type": "1",
+                                    "name": "ds.0.color",
+                                    "value": "4DB6AC"
+                                },
+                                {
+                                    "type": "1",
+                                    "name": "ds.0.hosts.0",
+                                    "value": "Zabbix server"
+                                },
+                                {
+                                    "type": "1",
+                                    "name": "ds.0.items.0",
+                                    "value": "*cache*% used"
+                                },
+                                {
+                                    "type": "1",
+                                    "name": "lefty_max",
+                                    "value": "100"
+                                },
+                                {
+                                    "type": "1",
+                                    "name": "lefty_min",
+                                    "value": "0"
+                                },
+                                {
+                                    "type": "1",
+                                    "name": "problemhosts.0",
+                                    "value": "Zabbix server"
+                                },
+                                {
+                                    "type": "1",
+                                    "name": "reference",
+                                    "value": "AAAAD"
+                                }
+                            ]
+                        },
+                        {
+                            "widgetid": "16",
+                            "type": "svggraph",
+                            "name": "Value cache effectiveness",
+                            "x": "24",
+                            "y": "9",
+                            "width": "24",
+                            "height": "5",
+                            "view_mode": "0",
+                            "fields": [
+                                {
+                                    "type": "0",
+                                    "name": "ds.0.transparency",
+                                    "value": "0"
+                                },
+                                {
+                                    "type": "0",
+                                    "name": "ds.1.transparency",
+                                    "value": "0"
+                                },
+                                {
+                                    "type": "0",
+                                    "name": "ds.0.width",
+                                    "value": "2"
+                                },
+                                {
+                                    "type": "0",
+                                    "name": "ds.1.width",
+                                    "value": "2"
+                                },
+                                {
+                                    "type": "0",
+                                    "name": "legend",
+                                    "value": "0"
+                                },
+                                {
+                                    "type": "0",
+                                    "name": "righty",
+                                    "value": "0"
+                                },
+                                {
+                                    "type": "0",
+                                    "name": "show_problems",
+                                    "value": "1"
+                                },
+                                {
+                                    "type": "1",
+                                    "name": "ds.0.color",
+                                    "value": "9CCC65"
+                                },
+                                {
+                                    "type": "1",
+                                    "name": "ds.0.hosts.0",
+                                    "value": "Zabbix server"
+                                },
+                                {
+                                    "type": "1",
+                                    "name": "ds.1.hosts.0",
+                                    "value": "Zabbix server"
+                                },
+                                {
+                                    "type": "1",
+                                    "name": "ds.0.items.0",
+                                    "value": "Value cache hits"
+                                },
+                                {
+                                    "type": "1",
+                                    "name": "ds.1.items.0",
+                                    "value": "Value cache misses"
+                                },
+                                {
+                                    "type": "1",
+                                    "name": "lefty_min",
+                                    "value": "0"
+                                },
+                                {
+                                    "type": "1",
+                                    "name": "problemhosts.0",
+                                    "value": "Zabbix server"
+                                },
+                                {
+                                    "type": "1",
+                                    "name": "ds.1.color",
+                                    "value": "FF465C"
+                                },
+                                {
+                                    "type": "1",
+                                    "name": "reference",
+                                    "value": "AAAAE"
+                                }
+                            ]
+                        },
+                        {
+                            "widgetid": "17",
+                            "type": "svggraph",
+                            "name": "Queue size",
+                            "x": "48",
+                            "y": "9",
+                            "width": "24",
+                            "height": "5",
+                            "view_mode": "0",
+                            "fields": [
+                                {
+                                    "type": "0",
+                                    "name": "ds.0.fill",
+                                    "value": "0"
+                                },
+                                {
+                                    "type": "0",
+                                    "name": "ds.1.fill",
+                                    "value": "0"
+                                },
+                                {
+                                    "type": "0",
+                                    "name": "ds.2.fill",
+                                    "value": "0"
+                                },
+                                {
+                                    "type": "0",
+                                    "name": "ds.0.transparency",
+                                    "value": "0"
+                                },
+                                {
+                                    "type": "0",
+                                    "name": "ds.1.transparency",
+                                    "value": "0"
+                                },
+                                {
+                                    "type": "0",
+                                    "name": "ds.2.transparency",
+                                    "value": "0"
+                                },
+                                {
+                                    "type": "0",
+                                    "name": "ds.0.width",
+                                    "value": "2"
+                                },
+                                {
+                                    "type": "0",
+                                    "name": "ds.1.width",
+                                    "value": "2"
+                                },
+                                {
+                                    "type": "0",
+                                    "name": "ds.2.width",
+                                    "value": "2"
+                                },
+                                {
+                                    "type": "0",
+                                    "name": "legend",
+                                    "value": "0"
+                                },
+                                {
+                                    "type": "0",
+                                    "name": "righty",
+                                    "value": "0"
+                                },
+                                {
+                                    "type": "0",
+                                    "name": "show_problems",
+                                    "value": "1"
+                                },
+                                {
+                                    "type": "1",
+                                    "name": "ds.0.color",
+                                    "value": "B0AF07"
+                                },
+                                {
+                                    "type": "1",
+                                    "name": "ds.1.color",
+                                    "value": "E53935"
+                                },
+                                {
+                                    "type": "1",
+                                    "name": "ds.2.color",
+                                    "value": "0275B8"
+                                },
+                                {
+                                    "type": "1",
+                                    "name": "ds.0.hosts.0",
+                                    "value": "Zabbix server"
+                                },
+                                {
+                                    "type": "1",
+                                    "name": "ds.1.hosts.0",
+                                    "value": "Zabbix server"
+                                },
+                                {
+                                    "type": "1",
+                                    "name": "ds.2.hosts.0",
+                                    "value": "Zabbix server"
+                                },
+                                {
+                                    "type": "1",
+                                    "name": "ds.0.items.0",
+                                    "value": "Queue"
+                                },
+                                {
+                                    "type": "1",
+                                    "name": "ds.1.items.0",
+                                    "value": "Queue over 10 minutes"
+                                },
+                                {
+                                    "type": "1",
+                                    "name": "ds.2.items.0",
+                                    "value": "Preprocessing queue"
+                                },
+                                {
+                                    "type": "1",
+                                    "name": "lefty_min",
+                                    "value": "0"
+                                },
+                                {
+                                    "type": "1",
+                                    "name": "problemhosts.0",
+                                    "value": "Zabbix server"
+                                },
+                                {
+                                    "type": "1",
+                                    "name": "ds.3.hosts.0",
+                                    "value": "Zabbix server"
+                                },
+                                {
+                                    "type": "1",
+                                    "name": "ds.3.items.0",
+                                    "value": "LLD queue"
+                                },
+                                {
+                                    "type": "1",
+                                    "name": "ds.3.color",
+                                    "value": "524BBC"
+                                },
+                                {
+                                    "type": "0",
+                                    "name": "ds.3.width",
+                                    "value": "2"
+                                },
+                                {
+                                    "type": "0",
+                                    "name": "ds.3.transparency",
+                                    "value": "0"
+                                },
+                                {
+                                    "type": "0",
+                                    "name": "ds.3.fill",
+                                    "value": "0"
+                                },
+                                {
+                                    "type": "1",
+                                    "name": "ds.4.hosts.0",
+                                    "value": "Zabbix server"
+                                },
+                                {
+                                    "type": "1",
+                                    "name": "ds.4.items.0",
+                                    "value": "Connector queue"
+                                },
+                                {
+                                    "type": "1",
+                                    "name": "ds.4.color",
+                                    "value": "607D8B"
+                                },
+                                {
+                                    "type": "0",
+                                    "name": "ds.4.width",
+                                    "value": "2"
+                                },
+                                {
+                                    "type": "0",
+                                    "name": "ds.4.transparency",
+                                    "value": "0"
+                                },
+                                {
+                                    "type": "0",
+                                    "name": "ds.4.fill",
+                                    "value": "0"
+                                },
+                                {
+                                    "type": "1",
+                                    "name": "ds.5.hosts.0",
+                                    "value": "Zabbix server"
+                                },
+                                {
+                                    "type": "1",
+                                    "name": "ds.5.items.0",
+                                    "value": "Discovery queue"
+                                },
+                                {
+                                    "type": "1",
+                                    "name": "ds.5.color",
+                                    "value": "66BB6A"
+                                },
+                                {
+                                    "type": "0",
+                                    "name": "ds.5.width",
+                                    "value": "2"
+                                },
+                                {
+                                    "type": "0",
+                                    "name": "ds.5.transparency",
+                                    "value": "0"
+                                },
+                                {
+                                    "type": "0",
+                                    "name": "ds.5.fill",
+                                    "value": "0"
+                                },
+                                {
+                                    "type": "1",
+                                    "name": "reference",
+                                    "value": "AAAAF"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "users": [],
+            "userGroups": [
+                {
+                    "usrgrpid": "7",
+                    "permission": "3"
+                }
+            ]
+        }
+    ],
+    "id": 1
+}

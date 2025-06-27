@@ -1,0 +1,10 @@
+{
+    "jsonrpc": "2.0",
+    "result": [
+        {
+            "hostid": "10084",
+            "host": "Zabbix server"
+        }
+    ],
+    "id": 2
+}

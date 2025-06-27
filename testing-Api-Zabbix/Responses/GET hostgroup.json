@@ -1,0 +1,38 @@
+{
+    "jsonrpc": "2.0",
+    "result": [
+        {
+            "groupid": "19",
+            "name": "Applications"
+        },
+        {
+            "groupid": "20",
+            "name": "Databases"
+        },
+        {
+            "groupid": "5",
+            "name": "Discovered hosts"
+        },
+        {
+            "groupid": "22",
+            "name": "DockerServers"
+        },
+        {
+            "groupid": "7",
+            "name": "Hypervisors"
+        },
+        {
+            "groupid": "2",
+            "name": "Linux servers"
+        },
+        {
+            "groupid": "6",
+            "name": "Virtual machines"
+        },
+        {
+            "groupid": "4",
+            "name": "Zabbix servers"
+        }
+    ],
+    "id": 1
+}
